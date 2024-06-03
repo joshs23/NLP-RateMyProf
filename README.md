@@ -1,1 +1,4 @@
 # NLP-RateMyProf
+A final project for CSS 490 Special Topics NLP at UW Bothell Spring 2024. The main notebook for the project is called ratemyprof.ipynb. The goal of the project is to apply NLP concepts leared in the class and demonstrate a full NLP project pipeline.
+
+The data was scraped from www.ratemyprofessors.com, using webscraper.io. Data was scraped from UW Bothell and UW Seattle pages, and cleaned of unnecessary columns that were from the web scraper in cleaning.ipynb. Further cleaning of Null values, feature engineering, and Preprocessing are found in the first part of ratemyprof.ipynb, as well as the main analysis of the dataset including a comparison of traditional linear regression vs using a BERT transformer to predict quality and difficulty ratings, a sentiment analysis of the reviews, and a toxicity analysis of the reviews.
